@@ -1,0 +1,420 @@
+#container
+{
+	width: 900px;
+	margin: 0 auto;
+	height: auto;
+	background-color:white;
+}
+#header
+{
+	height: 60px;
+	background-color:#e0f1f9;
+}
+#header div
+{
+	float: left;
+}
+#header .logo
+{
+	float: left;
+	width: 500px;
+	height:60px;
+}
+#header .nav
+{
+	margin-left: 0px;
+	width:400px;
+	height: 60px;
+}
+#header .nav li
+{
+	display: inline;
+	cursor:pointer;
+	float: left;
+	margin-left: 10px;
+}
+#header .nav li a
+{
+	text-decoration: none;
+	font-family: 仿宋;
+	font-size: 15pt;
+	color:#1a4eb1;
+}
+#header .nav li a:hover
+{
+	color:red;
+}
+#ads
+{
+	float:left;
+	width:900px;
+	height:420px;
+	margin-top: 5px;
+}
+#adright
+{
+	float:right;
+	width:280px;
+	height:420px;
+}
+#adright .right-top
+{
+	float: right;
+	width:280px;
+	height:208px;
+	border:1px  solid yellow; 
+}
+#adright .right-bottom
+{
+	float: right;
+	width:280px;
+	height:208px;
+	border:1px  solid yellow; 
+}
+#adleft
+{
+	float: left;
+    width:600px; 
+    height:410px; 
+    position:relative;
+    border:3px solid #333;
+    overflow:hidden; 
+}
+#ad
+{
+	float: left;
+	width: 4200px;
+	height:410px;
+	position: absolute;
+	z-index: 1;
+}
+#ad img
+{
+	float: left;
+	width: 600px;
+	height:410px;
+}
+#buttons
+{
+	position: absolute;
+	height: 10px;
+	width: 100px;
+	z-index: 2;
+	bottom: 20px;
+	left: 250px;
+}
+#buttons span
+{
+	cursor: pointer;
+	float: left;
+	border: 1px solid #fff;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: #333;
+	margin-right: 5px;
+}
+#buttons .on
+{
+	background: orangered;
+}
+#adleft a
+{
+	text-decoration: none;
+}
+.arrow
+{
+	cursor: pointer;
+	display: none;
+	line-height: 39px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+	top: 180px;
+	background-color: rgba(0,0,0,.3);
+	color:#fff;
+}
+.arrow:hover
+ {
+    background-color:RGBA(0,0,0,.7);
+ }
+#adleft:hover .arrow
+{
+	display: block;
+}
+#prev
+{
+	left:20px;
+}
+#next
+{
+	right: 20px;
+}
+#classify
+{
+	float: left;
+	background-color:#70b305;
+	height:70px;
+	margin-top: 5px;
+	width: 900px;
+}
+#classify nav
+{
+	margin-left: 0px;
+	width:600px;
+}
+#classify  li
+{
+	display: inline;
+	font-size: 18px;
+	cursor:pointer;
+	float: left;
+	margin-left: 20px;
+	margin-top:10px;
+}
+#classify  li a
+{
+	text-decoration: none;
+	font-family: 宋体;
+	color: white;
+}
+#classify  li a:hover
+{
+	color:#1a4eb1;
+}
+#classify .search
+{
+	margin-top: 7.5px;
+	margin-right:5px;
+	width:260px;
+	height:25px;
+	float: right;
+}
+#classify .search input
+{
+	font-family: 微软雅黑;
+	line-height: 20px;
+}
+#recommend
+{
+	float: left;
+	width: 900px;
+	height:60px;
+	background-color: #ffdeb7;
+	margin-top: 5px;
+}
+#rank
+{
+	height: 25px;
+	width: 900px;
+	background-color: #ffdeb7;
+	margin-top: 5px;
+	line-height: 25px;
+	font-size: 20px;
+}
+#rank li
+{
+	float: left;
+	display: inline;
+	margin-left: 50px;
+	cursor:pointer;
+}
+#rank li a
+{
+	text-decoration: none;
+	color: #744f00;
+}
+#rank li a:hover
+{
+    color:#6aaa05;
+    text-decoration: none;
+}
+/*#blank div
+{
+	height:40px;
+}
+#blank1
+{
+	background-color: #f9fff0;
+}
+#blank2
+{
+	background-color: #eeffd9;
+}
+#blank3
+{
+	background-color: #f9fff0;
+}*/
+#gamelist
+{
+	width:900px;
+	height:650px;
+}
+#gamelist .game
+{
+	float: left;
+	height: 210px;
+	width: 220px;
+	margin-left: 3px;
+	margin-top: 5px;
+	background-color: ;
+}
+#gamelist li
+{
+	display: inline;
+	border: 1px solid #ccc;
+	background-color:#f5f5f5;
+}
+#gamelist .gamename
+{
+	background-color:#fdf7e7;
+	height:39px;
+}
+#gamelist .gamename p
+{
+	margin-top: 0px;
+}
+#gamelist .gamename em a
+{
+	width: 100px;
+	margin-left: 10px;
+	line-height: 30px;
+	text-decoration: none;
+	font-family: Times New Roman;
+	font-size: 12pt;
+	cursor:pointer;
+	color:#db6301;
+}
+#gamelist .gamename em a:hover
+{
+	color:#6aaa05;
+}
+#gamelist .gamename span a
+{
+	width:100px;
+	margin-left: 50px;
+	cursor:pointer;
+	text-decoration: none;
+	color:#a93b3f;
+}
+#gamelist .gamename span a:hover
+{
+	color:#6aaa05;
+}
+#gamelist .pic
+{
+	width:218px;
+	height:170px;
+	border: 1px solid#eeffd9;
+}
+#gameicon
+{
+	float:left;
+	width:900px;
+	height:225px;
+	margin-top: 10px;
+}
+#gameicon div
+{
+	float: left;
+	width: 105px;
+	margin-left: 5.5px;
+	height: 110px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin-top: 2.5px;
+}
+#gameicon img
+{
+	border-radius: 10px;
+	cursor:pointer;
+}
+#foot
+{
+	float: left;
+	background-color: black;
+	width:900px;
+	color:white;
+	margin-top: 10px;
+}
+#foot-top
+{
+	width: 900px;
+	height:100px;
+}
+#foot-top .top
+{
+	width:480px;
+	margin: 0 auto;
+	color:#c0bdc2;
+}
+#foot-top .top div
+{
+	float:left;
+	line-height: 50px;
+	font-size:13px;
+	width:80px;
+	cursor:pointer;	
+}
+#foot-top .top div:hover
+{
+	color:yellow;
+}
+#foot .foot-bottom
+{
+	width: 900px;
+	height:250px;
+	margin: 0 auto;
+}
+#foot .foot-bottom .top
+{
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 25px;
+}
+#foot .foot-bottom .top1 
+{
+	margin: 0 auto;
+	width: 300px;
+}
+#foot .foot-bottom .top2 
+{
+	margin: 0 auto;
+	width: 550px;
+}
+#foot .foot-bottom .advice h5
+{
+	margin-left: 210px;
+	font-family: 宋体；
+}
+#foot .foot-bottom .advice p
+{
+	text-align: center;
+	font-family: 华文行楷;
+	font-size: 14px;
+}
+#foot .foot-bottom .end
+{
+	width: 550px;
+	height: 25px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 25px;
+}
+#foot .pic
+{
+	width:500px;
+	height: 100px;
+	margin: 0 auto;
+}
+#foot .pic div
+{
+	float: left;
+	margin-left: 100px;
+}
